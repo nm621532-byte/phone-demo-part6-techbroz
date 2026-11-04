@@ -1,3 +1,5 @@
+[![Website Check](https://github.com/nm621532-byte/phone-demo-part6-techbroz/actions/workflows/check.yml/badge.svg)](https://github.com/nm621532-byte/phone-demo-part6-techbroz/actions/workflows/check.yml)
+
 # phone-demo-part6-techbroz
 
 GitHub Phone se — **Part 6**: github.dev (VS Code browser mein) se phone pe edit karna.
