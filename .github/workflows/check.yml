@@ -1,0 +1,20 @@
+name: Website Check
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hello bolo
+        run: echo "Namaste! Naya code push hua hai"
+
+      - name: Files dekho
+        run: ls -la
+
+      - name: index.html check
+        run: test -f index.html && echo "index.html mil gaya"
+
+      - name: script.js check
+        run: test -f script.js && echo "script.js mil gaya"
