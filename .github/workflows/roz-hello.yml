@@ -1,0 +1,13 @@
+name: Roz Hello
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Time dekho
+         run: date
