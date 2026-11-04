@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Time dekho
-         run: date
+        run: date
+
+      - name: Hello
+        run: echo "Good morning! Ye Action roz 9 baje (IST) chalega"
