@@ -2,8 +2,10 @@
 
 # phone-demo-part6-techbroz
 
-GitHub Phone se — **Part 6**: github.dev (VS Code browser mein) se phone pe edit karna.
+GitHub Phone se — **Part 6**: GitHub Actions basics, sirf phone se.
 
+- Workflow file: `.github/workflows/check.yml` (har push pe "Website Check" chalta hai)
+- Pehla run red ❌ (script.js nahi thi) → script.js add ki → green ✅
 - Live site: https://nm621532-byte.github.io/phone-demo-part6-techbroz/
 - YouTube video: link soon
 - Made by Tech Bro Z — YouTube @techbrozdeveloper, Instagram @tech_bro_z_1
